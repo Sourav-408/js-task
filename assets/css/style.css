@@ -1,0 +1,43 @@
+.btn {}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    outline: 1px solid gray;
+    position: relative;
+}
+
+/* .d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+}
+.min-vh{
+    min-height: 100vh;
+} */
+.pt-20 {
+    padding-top: 28px;
+    padding-right: 28px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.circle.on {
+    border-color: yellow;
+    background-color: yellow;
+    box-shadow: 0 0 10px 10px yellow;
+    height: 100px;
+    width: 100px;
+}
+.fd-col{
+    flex-direction: column;
+}
